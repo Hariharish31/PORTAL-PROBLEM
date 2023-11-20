@@ -1,0 +1,15 @@
+import React from 'react';
+
+export default class ClassComponent extends React.Component{
+    render(){
+        return (
+            <div>
+                <ol>
+                    <li>Lion</li>
+                    <li>Hyena</li>
+                    <li>Eagle</li>
+                </ol>
+            </div>
+        )
+    }
+}
